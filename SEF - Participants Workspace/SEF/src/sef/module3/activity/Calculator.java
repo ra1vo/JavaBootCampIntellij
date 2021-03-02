@@ -1,7 +1,7 @@
 /**
  * 
  */
-package sef.module3.activity;
+package activity;
 
 /**
  * @author 
@@ -11,8 +11,8 @@ public class Calculator {
 		
 	public static void main(String[] args) {
 		
-	int x = 10;
-	int y = 5;
+	int x = 90;
+	int y = 20;
 	
 	int[] nums = {1, 2, 3, 4};
 	
@@ -33,8 +33,10 @@ public class Calculator {
 		int diff = 0;
 		if (x > y) {
 			// complete the code
+			diff = x - y;
 		} else {
 			// complete the code
+			diff = y - x;
 		}
 
 		return diff;
@@ -54,8 +56,10 @@ public class Calculator {
 		int divValue = 0;
 		if (x == 0 || y == 0) {
 			// complete the code
+			divValue = 0;
 		} else {
 			// complete the code
+			divValue = x/y;
 		}
 		return divValue;
 
