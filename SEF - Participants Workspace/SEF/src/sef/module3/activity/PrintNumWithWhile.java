@@ -1,7 +1,7 @@
 /**
  * 
  */
-package sef.module3.activity;
+package activity;
 
 /**
  * @author 
@@ -22,9 +22,12 @@ public class PrintNumWithWhile {
 			i=i+2;			
 		}
 		
-		 
+		 i = 1;
 		// write code to Print all odd numbers less than 100
-
+		while (i < 100){
+			System.out.println(i);
+			i += 2;
+		}
 	}
 
 }
